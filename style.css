@@ -1,0 +1,151 @@
+html {
+  font-family: Arial;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  text-align: left;
+  padding: 1em;
+  font-size: 13px;
+}
+
+a:link, a:visited {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+::selection {
+  background-color: #3effab;
+}
+
+h1, h2, h3, h4 { margin-top: 0; }
+
+
+section {
+  background-color: #333;
+  border-radius:5px;
+  padding: 1em;
+  margin: 2em 0;
+}
+
+.mods th:first-child {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+
+.total-box {
+  background-color: #333;
+  padding: 1em 2em;
+  border-radius:5px;
+}
+
+#total { font-size: 2.5em; }
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input {
+  text-align: center;
+  width: 4em;
+  padding: 0.25em;
+  border-width: 0.25em;
+  border-style: double;
+  background-color: #000;
+  color: #fff;
+}
+input:focus {
+  border-style: solid;
+  background-color: #222;
+}
+
+
+table {
+  text-align: center;
+  margin: 0;
+}
+
+th, td {
+  white-space: nowrap;
+  padding: 0.5em 1em;
+  font-weight: normal;
+}
+
+input[name$=-c] {
+  border-color: #8cffbd;
+}
+input[name$=-r] {
+  border-color: #ad8eff;
+}
+input[name$=-vr] {
+  border-color: #ff8eff;
+}
+
+input[name$=_01] {
+  border-color: #ffcf57;
+}
+input[name$=_02] {
+  border-color: #ffa52e;
+}
+input[name$=_03] {
+  border-color: #ff7110;
+}
+input[name$=_04] {
+  border-color: #e60000;
+}
+input[name$=_05] {
+  border-color: #fe2692;
+}
+input[name$=_06] {
+  border-color: #ef24ce;
+}
+input[name$=_07] {
+  border-color: #c321e2;
+}
+input[name$=_08] {
+  border-color: #9624f8;
+}
+input[name=ada] {
+  border-color: #63ffff;
+}
+input[name=jarvis] {
+  border-color: #3effab;
+}
+input[name=keys] {
+  border-color: #fff0ad;
+}
+
+@media (min-width: 1070px) {
+  .total-box {
+    position: fixed;
+    right: 3em;
+    bottom: 2em;
+  }
+  section {
+    width: 60em;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1600px) {
+  body {
+    text-align: center;
+    font-size: 16px;
+  }
+  section {
+    margin: 2em auto;
+  }
+  table {
+    margin: 0 auto;
+  }
+}
